@@ -13,11 +13,13 @@ const Counter = () => {
   return (
       <>
     <div>
+      <div className='App'>Counter</div>
         <button onClick={()=>{setCounter(counter-5)}} className="btn" >-</button>
         <span className='text' >{counter}</span>
         <button onClick={()=>{setCounter(counter+5)}} className="btn"  >+</button>
     </div>
     <div>
+    <div className='App'>Counter</div>
         <button onClick={()=>{setcountbycent(countbycent-100)}}className="btn"  >-</button>
         <span className='text' >{countbycent}</span>
         <button onClick={()=>{setcountbycent(countbycent+100)}} className="btn"  >+</button>
