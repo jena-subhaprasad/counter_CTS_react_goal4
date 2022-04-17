@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+.btn{
+  margin: 30px;
+  background-color: rgb(235, 235, 218);
+  font-weight: 500;
+  font-size: x-large;
+  border-radius: 50%;
+}
+.text{
+  font-weight: 500;
+  font-size: calc(10px + 2vmin);
+}
